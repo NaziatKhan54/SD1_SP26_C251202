@@ -2,7 +2,7 @@ package Set1;
 
 import java.util.Scanner;
 
-public class problem6 {
+public class problem7 {
 
     public static void main(String[] args) {
 
@@ -12,10 +12,9 @@ public class problem6 {
 
         int n = myObject.nextInt();
         int i;
-        for (i = 1; i <= n; i++) {
-            System.out.println(i);
+        for (i = 1; i <= 10; i++) {
+            System.out.println(n + " * " + i + " = " + (n * i));
         }
 
     }
-
 }
