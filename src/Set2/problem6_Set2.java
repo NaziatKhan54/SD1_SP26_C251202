@@ -2,7 +2,7 @@ package Set2;
 
 import java.util.Scanner;
 
-public class problem4_Set2 {
+public class problem6_Set2 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -14,10 +14,18 @@ public class problem4_Set2 {
         for (i = 0; i < n; i++) {
             arr[i] = input.nextInt();
         }
-        int sum = 0;
+        System.out.print("Search an Item = ");
+        int item = input.nextInt();
+        int count = 0;
         for (i = 0; i < n; i++) {
-            sum = sum + arr[i];
+            if (item == arr[i]) {
+                count++;
+            }
         }
-        System.out.print("The average of this array = " + (double) sum / n + "\n");
+        if (count == 0) {
+            System.out.println("Item not found");
+        } else {
+            System.out.println("Item found");
+        }
     }
 }
