@@ -8,12 +8,7 @@ public class problem10_Set2 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a string : ");
         String output = input.nextLine();
-        
-        
-        
-        
-        System.out.print("Converting to Uppercase = "+output.toUpperCase()+"\n");
-        System.out.print("Converting to Lowercase = "+output.toLowerCase()+"\n");
+        System.out.print("Converting to Uppercase = " + output.toUpperCase() + "\n");
+        System.out.print("Converting to Lowercase = " + output.toLowerCase() + "\n");
     }
-
 }
